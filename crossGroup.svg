@@ -1,0 +1,8 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="crossGroup">
+<rect id="outer2" y="24.1861" width="34.2042" height="192.07" rx="17.1021" transform="rotate(-45 0 24.1861)" fill="#D9D9D9"/>
+<rect id="outer1" x="135.814" width="34.2042" height="192.07" rx="17.1021" transform="rotate(45 135.814 0)" fill="#D9D9D9"/>
+<rect id="inner2" x="5.58139" y="24.1861" width="26.3109" height="184.177" rx="13.1555" transform="rotate(-45 5.58139 24.1861)" fill="#434343"/>
+<rect id="inner1" x="135.814" y="5.58139" width="26.3109" height="184.177" rx="13.1555" transform="rotate(45 135.814 5.58139)" fill="#434343"/>
+</g>
+</svg>
