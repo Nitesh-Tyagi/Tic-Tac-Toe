@@ -57,24 +57,23 @@ function clearPage(){
 }
 
 function handleClick(el){
+	const id = Number(el.id);
+	if(arr[id] == 0 || arr[id] == 1) return;
+	arr[id] = player;
+
 	const currentSVG = svgArray[player];
 
 	el.style.backgroundImage = `url('data:image/svg+xml,${encodeURIComponent(currentSVG)}')`;
 	el.style.backgroundSize = "cover";
 	el.style.backgroundRepeat = "no-repeat";
 
-	const id = Number(el.id);
-	arr[id] = player;
-
-	console.log(arr);
-
 	moves++;
 	if(checkWinner(player)){
 		if(player==0){
-			alert("X Won!");
+			alert("X Won!\nNext Turn : O");
 			scoreX.innerText ++;
 		} else{
-			alert("O Won!");
+			alert("O Won!\nNext Turn : X");
 			scoreO.innerText ++;
 		}
 
